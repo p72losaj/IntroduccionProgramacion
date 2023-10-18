@@ -31,5 +31,5 @@
     }else{
         cout << "Los numeros son iguales" << endl;
     }
-    return 0;
+    return 1;
  }

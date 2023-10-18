@@ -20,5 +20,5 @@
         suma += num;
     }
     cout << "La media es: " << suma/4 << endl;
-    return 0;
+    return 1;
  }

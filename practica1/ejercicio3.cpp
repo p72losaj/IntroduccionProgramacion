@@ -23,5 +23,5 @@ int main(){
     }else{
         cout << "La raiz cuadrada de " << valor << " es " << sqrt(valor) << endl; // sqrt es la funcion que calcula la raiz cuadrada
     }
-    return 0;
+    return 1;
 }

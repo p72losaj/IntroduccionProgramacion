@@ -23,5 +23,5 @@ int main(){
     } else {
         cout << "El numero es menor que 0" << endl;
     }
-    return 0;
+    return 1;
 }
