@@ -20,8 +20,8 @@ int main(){
     cin.ignore(); // Limpiamos el buffer de entrada
     if(valor < 0){
         cout << "Error, el numero debe ser positivo" << endl;
-    }else{
-        cout << "La raiz cuadrada de " << valor << " es " << sqrt(valor) << endl; // sqrt es la funcion que calcula la raiz cuadrada
+        return 1;
     }
-    return 1;
+    cout << "La raiz cuadrada de " << valor << " es " << sqrt(valor) << endl; // sqrt es la funcion que calcula la raiz cuadrada
+    return 0;
 }

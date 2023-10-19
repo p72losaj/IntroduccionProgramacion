@@ -27,5 +27,5 @@
     // Mostramos los valores intercambiados
     cout << "El valor de a es:  " << a << endl;
     cout << "El valor de b es: " << b << endl;
-    return 1;
+    return 0;
  }

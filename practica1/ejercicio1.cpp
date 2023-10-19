@@ -19,5 +19,5 @@ int main(){
     cin >> radio;
     cin.ignore(); // Limpiamos el buffer de entrada
     cout << "Area de la circunferencia: " << pow(radio,2) * pi << " cm^2" << endl; // pow es la funcion que calcula la potencia de un numero
-    return 1;
+    return 0;
 }

@@ -22,5 +22,5 @@
     }else{
         cout << "El valor introducido es impar" << endl;
     }
-    return 1;
+    return 0;
  }

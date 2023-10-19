@@ -27,5 +27,5 @@
     cin >> notaExamen;
     cin.ignore(); // Limpiamos el buffer de entrada
     cout << "La nota final es: " << (notaPracticas*0.25)+(notaParcial*0.25)+(notaExamen*0.5) << endl;
-    return 1;
+    return 0;
  }

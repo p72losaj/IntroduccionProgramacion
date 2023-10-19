@@ -16,5 +16,5 @@ int main(){
     cin >> angulo;
     cin.ignore(); // Limpiamos el buffer de entrada
     cout << "El valor del angulo en radianes es: " << angulo*3.141592/180 << endl;
-    return 1;
+    return 0;
 }

@@ -18,11 +18,13 @@
     cin.ignore(); // Limpiamos el buffer de entrada
     if( (dia < 1) || (dia > 7) ){
         cout << "Error: El numero introducido no pertenece al rango (1-7)" << endl;
-    }else if( (dia >= 1) && (dia <= 5) ){
+        return 1;
+    }
+    if( (dia >= 1) && (dia <= 5) ){
         cout << "Es un dia laborable" << endl;
     }
     else{
         cout << "Es fin de semana" << endl;
     }
-    return 1;
+    return 0;
  }
